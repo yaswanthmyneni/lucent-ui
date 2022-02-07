@@ -11,6 +11,10 @@
   display: flex;
 }
 
+.flex-gap-1 {
+  gap: 1rem;
+}
+
 .align-item-end {
   align-items: flex-end;
 }
