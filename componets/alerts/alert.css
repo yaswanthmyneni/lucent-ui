@@ -12,8 +12,8 @@
 .alert {
   width: 30%;
   padding: 1rem;
-  border-radius: 0.3125rem;
-  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 8px;
 }
 
 .alert-success {
@@ -41,13 +41,5 @@
 }
 
 .alert-border {
-  border: 0.125rem solid;
-}
-
-.alert-code-snippet {
-  width: 42.5rem;
-  height: 21.375rem;
-  border: 0;
-  transform: scale(1);
-  overflow: hidden;
+  border: 2px solid;
 }
