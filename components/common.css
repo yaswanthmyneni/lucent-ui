@@ -15,6 +15,10 @@
   gap: 1rem;
 }
 
+.flex-gap-2 {
+  gap: 2rem;
+}
+
 .align-item-end {
   align-items: flex-end;
 }

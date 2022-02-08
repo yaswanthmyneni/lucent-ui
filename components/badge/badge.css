@@ -1,0 +1,85 @@
+:root {
+    --white-color: white;
+    --online-color: green;
+    --offline-color: lightslategray;
+    --busy-color: red;
+}
+
+.badge {
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid var(--white-color);
+}
+
+.badge-online {
+    background-color: var(--online-color);
+}
+
+.badge-offline {
+    background-color: var(--offline-color);
+}
+
+.badge-busy {
+    background-color: var(--busy-color);
+}
+
+.badge-size-lg {
+    width: 1.22rem;
+    height: 1.22rem;
+    font-size: 11px;
+    color: var(--white-color);
+}
+
+.badge-size-md {
+    width: 1rem;
+    height: 1rem;
+    font-size: 12px;
+    color: var(--white-color);
+}
+
+.badge-size-sm {
+    width: 10px;
+    height: 10px;
+}
+
+.badge-position-lg {
+    bottom: 4px;
+    right: 12px;
+}
+
+.badge-position-md {
+    bottom: 4px;
+    right: 8px;
+}
+
+.badge-position-sm {
+    bottom: 2px;
+    right: 4px;
+}
+
+.flex-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-badge {
+    font-size: 2rem;
+    margin: 10px 10px 0px 0px;
+}
+
+.badge-pos-to-icon {
+    top: 0px;
+    right: 0px;
+}
+
+.display-badge {
+    display: inline-block;
+}
+
+.pos-rel-badge {
+    position: relative;
+}
+
+
+
