@@ -1,0 +1,45 @@
+:root {
+    --white-color: white;
+}
+.avatar {
+    display: inline-block;
+}
+
+.avatar-border-radius {
+    border-radius: 50%;
+}
+
+.avatar-xl {
+    width: 9rem;
+    height: 9rem;
+    font-size: 2rem;
+}
+
+.avatar-lg {
+    width: 7rem;
+    height: 7rem;
+    font-size: 1.7rem;
+}
+
+.avatar-md {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.4rem;
+}
+
+.avatar-sm {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.avatar-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-weight: bolder;
+    background-color: rgb(28, 95, 95);
+}
+
+
