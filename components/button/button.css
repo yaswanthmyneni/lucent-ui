@@ -4,6 +4,10 @@
     --btn-orange-color: orange;
 }
 
+button {
+    cursor: pointer;
+}
+
 .button {
     padding: 7px 12px;
     font-size: 1rem;
@@ -29,10 +33,6 @@
     padding: 0;
 }
 
-.btn-link a {
-    text-decoration: none;
-}
-
 .btn-danger {
     background-color: var(--btn-danger-color);
     color: white;
@@ -53,10 +53,6 @@
 
 .btn-floating:hover {
     transform: scale(1.1);
-}
-
-.btn-cursor {
-    cursor: pointer;
 }
 
 .btn-icon {
