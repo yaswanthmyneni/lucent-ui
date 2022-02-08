@@ -23,26 +23,18 @@
     background-color: var(--busy-color);
 }
 
-.badge-size-xxl {
-    width: 1.5rem;
-    height: 1.5rem;
-    font-size: 12px;
-}
-
-.badge-size-xl {
-    width: 1.4rem;
-    height: 1.4rem;
-    font-size: 14px;
-}
-
 .badge-size-lg {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.22rem;
+    height: 1.22rem;
+    font-size: 11px;
+    color: var(--white-color);
 }
 
 .badge-size-md {
     width: 1rem;
     height: 1rem;
+    font-size: 12px;
+    color: var(--white-color);
 }
 
 .badge-size-sm {
@@ -65,27 +57,27 @@
     right: 4px;
 }
 
-.badge-flex {
+.flex-badge {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.badge-icon-size {
-    font-size:3rem;
+.icon-badge {
+    font-size: 2rem;
     margin: 10px 10px 0px 0px;
 }
 
-.badge-to-icon-pos {
+.badge-pos-to-icon {
     top: 0px;
     right: 0px;
 }
 
-.badge-display {
+.display-badge {
     display: inline-block;
 }
 
-.badge-pos-rel {
+.pos-rel-badge {
     position: relative;
 }
 
