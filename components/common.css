@@ -1,7 +1,13 @@
+:root {
+  --code-snippet-color: #a7f3d0;
+}
+
 .code-snippet {
   margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  background-color: var(--code-snippet-color);
+  border-radius: 10px;
   width: 42.5rem;
-  height: 21.375rem;
   border: 0;
   transform: scale(1);
   overflow: hidden;
