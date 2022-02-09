@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="../badge/badge.css">
+    <link rel="stylesheet" href="../common.css">
+    <!-- google-icon-cdn -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <h1>Card</h1>
+    <p>By using below mentioned css classes, you can mirror the below components. </p>
+
+    <!-- Text Card -->
+    <h3>Text cards:</h3>
+    <p>The below cards are of four types.</p>
+    <ol>
+        <li>Text Card.</li>
+        <li>Text Card with dismiss and shadow.</li>
+        <li>Text Card with text overlay.</li>
+    </ol>
+    <div class="flex flex-gap-2 background-color padding-1 justify-content">
+        <!-- Text card -->
+        <div class="card card-border-radius card-background-color">
+            <h2 class="card-margin-bottom">Title</h2>
+            <p class="card-margin-bottom card-subtitle">Subtitle</p>
+            <p class="card-margin-bottom">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius optio necessitatibus velit. Accusamus, culpa?
+            </p>
+        </div>
+        <!-- Text card with dismiss and shadow -->
+        <div class="card card-border-radius card-background-color card-pos-rel card-box-shadow">
+            <span class="material-icons card-pos-abs card-close-pos">close</span>            
+            <h2 class="card-margin-bottom">Title</h2>
+            <p class="card-margin-bottom card-subtitle">Subtitle</p>
+            <p class="card-margin-bottom">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius optio necessitatibus velit. Accusamus, culpa?
+            </p>
+        </div>
+        <!-- Text card with text overlay -->
+        <div class="card card-border-radius card-background-color card-pos-rel">
+            <h2 class="card-margin-bottom">Title</h2>
+            <p class="card-margin-bottom card-subtitle">Subtitle</p>
+            <p class="card-margin-bottom">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius optio necessitatibus velit. Accusamus, culpa?
+            </p>
+            <div class="card-overlay"></div>
+            <div class="card-text-overlay">
+                <h3>Out of Stock</h3>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Text%2520card%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-border-radius%2520card-background-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-margin-bottom%2522%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2520card-subtitle%2522%253ESubtitle%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Fugit%2520eius%2520optio%2520necessitatibus%2520velit.%2520Accusamus%252C%2520culpa%253F%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520Text%2520card%2520with%2520dismiss%2520and%2520shadow%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-border-radius%2520card-background-color%2520card-pos-rel%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520card-pos-abs%2520card-close-pos%2522%253Eclose%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-margin-bottom%2522%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2520card-subtitle%2522%253ESubtitle%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Fugit%2520eius%2520optio%2520necessitatibus%2520velit.%2520Accusamus%252C%2520culpa%253F%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520Text%2520card%2520with%2520text%2520overlay%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-border-radius%2520card-background-color%2520card-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-margin-bottom%2522%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2520card-subtitle%2522%253ESubtitle%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Fugit%2520eius%2520optio%2520necessitatibus%2520velit.%2520Accusamus%252C%2520culpa%253F%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOut%2520of%2520Stock%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+    <!-- Image Card - Vertical-->
+    <h3>Image Cards - Vertical:</h3>
+    <p>The below cards are of four types.</p>
+    <ol>
+        <li>Vertical Card.</li>
+        <li>Vertical Card with dismiss and shadow.</li>
+        <li>Vertical Card with badge.</li>
+        <li>Vertical Card with text overlay.</li>
+    </ol>
+    <div class="flex flex-gap-2 background-color padding-1 justify-content">
+        <!-- Vertical card -->
+        <div class="card card-vertical card-background-color card-pos-rel">
+            <img class="card-margin-bottom" src="https://picsum.photos/270/210" alt="image">
+            <div class="card-margin-left-right">
+                <p class="card-margin-bottom">Essential</p>
+                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                <p class="card-margin-bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis obcaecati facere commodi?
+                </p>
+                <div class="card-margin-bottom card-align-items">
+                    <h3 class="card-margin-0 card-display">$149</h3>
+                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                </div>
+            </div>
+            <div class="card-flex card-margin-top-bottom">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-secondary">
+                    <span class="material-icons">shopping_cart</span>
+                    <span>Add to cart</span>
+                </button>
+            </div>
+        </div>
+        <!-- Vertical card with dismiss and shadow -->
+        <div class="card card-vertical card-background-color card-pos-rel card-box-shadow">
+            <span class="material-icons card-pos-abs card-close-pos">close</span>
+            <img class="card-margin-bottom" src="https://picsum.photos/270/210" alt="image">
+            <div class="card-margin-left-right">
+                <p class="card-margin-bottom">Essential</p>
+                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                <p class="card-margin-bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis obcaecati facere commodi?
+                </p>
+                <div class="card-margin-bottom card-align-items">
+                    <h3 class="card-margin-0 card-display">$149</h3>
+                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                </div>
+            </div>
+            <div class="card-flex card-margin-top-bottom">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-secondary">
+                    <span class="material-icons">shopping_cart</span>
+                    <span>Add to cart</span>
+                </button>
+            </div>
+        </div>
+        <!-- Vertical card with badge -->
+        <div class="card card-vertical card-background-color card-pos-rel">
+            <span class="badge-text card-vertical-badge-pos flex-badge">new</span>
+            <img class="card-margin-bottom" src="https://picsum.photos/270/210" alt="image">
+            <div class="card-margin-left-right">
+                <p class="card-margin-bottom">Essential</p>
+                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                <p class="card-margin-bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis obcaecati facere commodi?
+                </p>
+                <div class="card-margin-bottom card-align-items">
+                    <h3 class="card-margin-0 card-display">$149</h3>
+                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                </div>
+            </div>
+            <div class="card-flex card-margin-top-bottom">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-secondary">
+                    <span class="material-icons">shopping_cart</span>
+                    <span>Add to cart</span>
+                </button>
+            </div>
+        </div>
+        <!-- Vertical card with text overlay -->
+        <div class="card card-vertical card-background-color card-pos-rel">
+            <div class="card-overlay"></div>
+            <div class="card-text-overlay">
+                <h3>Out of Stock</h3>
+            </div>
+            <img class="card-margin-bottom" src="https://picsum.photos/270/210" alt="image">
+            <div class="card-margin-left-right">
+                <p class="card-margin-bottom">Essential</p>
+                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                <p class="card-margin-bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis obcaecati facere commodi?
+                </p>
+                <div class="card-margin-bottom card-align-items">
+                    <h3 class="card-margin-0 card-display">$149</h3>
+                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                </div>
+            </div>
+            <div class="card-flex card-margin-top-bottom">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-secondary">
+                    <span class="material-icons">shopping_cart</span>
+                    <span>Add to cart</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Vertical%2520card%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-background-color%2520card-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-margin-bottom%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F270%252F210%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-left-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2520card-margin-top-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Vertical%2520card%2520with%2520dismiss%2520and%2520shadow%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-background-color%2520card-pos-rel%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520card-pos-abs%2520card-close-pos%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-margin-bottom%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F270%252F210%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-left-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2520card-margin-top-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Vertical%2520card%2520with%2520badge%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-background-color%2520card-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-text%2520card-vertical-badge-pos%2520flex-badge%2522%253Enew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-margin-bottom%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F270%252F210%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-left-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2520card-margin-top-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Vertical%2520card%2520with%2520text%2520overlay%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-background-color%2520card-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOut%2520of%2520Stock%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-margin-bottom%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F270%252F210%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-left-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2520card-margin-top-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+    <!-- Image Card - Horizontal-->
+    <h3>Image Cards - Horizontal:</h3>
+    <p>The below cards are of four types.</p>
+    <ol>
+        <li>Horizontal Card.</li>
+        <li>Horizontal Card with dismiss and shadow.</li>
+        <li>Horizontal Card with badge.</li>
+        <li>Horizontal Card with text overlay.</li>
+    </ol>
+    <div class="flex flex-gap-2 background-color padding-1 justify-content">
+        <!-- Horizontal card -->
+        <div class="card card-horizontal card-background-color">
+            <img src="https://picsum.photos/170/200" alt="image">
+            <div class="card-margin">
+                <p class="card-margin-top-bottom">Essential</p>
+                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                <p class="card-margin-bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis obcaecati facere commodi?
+                </p>
+                <div class="card-margin-bottom card-align-items">
+                    <h3 class="card-margin-0 card-display">$149</h3>
+                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                </div>
+                <div class="card-flex">
+                    <button class="btn btn-primary">Buy Now</button>
+                    <button class="btn btn-secondary">
+                        <span class="material-icons">shopping_cart</span>
+                        <span>Add to cart</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Horizontal card with dismiss and shadow -->
+        <div class="card card-horizontal card-background-color card-pos-rel card-box-shadow">
+            <span class="material-icons card-pos-abs card-close-pos">close</span>
+            <img src="https://picsum.photos/170/200" alt="image">
+            <div class="card-margin">
+                <p class="card-margin-top-bottom">Essential</p>
+                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                <p class="card-margin-bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis obcaecati facere commodi?
+                </p>
+                <div class="card-margin-bottom card-align-items">
+                    <h3 class="card-margin-0 card-display">$149</h3>
+                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                </div>
+                <div class="card-flex">
+                    <button class="btn btn-primary">Buy Now</button>
+                    <button class="btn btn-secondary">
+                        <span class="material-icons">shopping_cart</span>
+                        <span>Add to cart</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Horizontal card with badge -->
+        <div class="card card-horizontal card-background-color card-pos-rel">
+            <span class="badge-text card-horizontal-badge-pos flex-badge">new</span>
+            <img src="https://picsum.photos/170/200" alt="image">
+            <div class="card-margin">
+                <p class="card-margin-top-bottom">Essential</p>
+                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                <p class="card-margin-bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis obcaecati facere commodi?
+                </p>
+                <div class="card-margin-bottom card-align-items">
+                    <h3 class="card-margin-0 card-display">$149</h3>
+                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                </div>
+                <div class="card-flex">
+                    <button class="btn btn-primary">Buy Now</button>
+                    <button class="btn btn-secondary">
+                        <span class="material-icons">shopping_cart</span>
+                        <span>Add to cart</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Horizontal card with text overlay-->
+        <div class="card card-horizontal card-background-color card-pos-rel">
+            <div class="card-overlay"></div>
+            <div class="card-text-overlay">
+                <h3>Out of Stock</h3>
+            </div>
+            <img src="https://picsum.photos/170/200" alt="image">
+            <div class="card-margin">
+                <p class="card-margin-top-bottom">Essential</p>
+                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                <p class="card-margin-bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis obcaecati facere commodi?
+                </p>
+                <div class="card-margin-bottom card-align-items">
+                    <h3 class="card-margin-0 card-display">$149</h3>
+                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                </div>
+                <div class="card-flex">
+                    <button class="btn btn-primary">Buy Now</button>
+                    <button class="btn btn-secondary">
+                        <span class="material-icons">shopping_cart</span>
+                        <span>Add to cart</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Horizontal%2520card%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-horizontal%2520card-background-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F170%252F200%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-top-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Horizontal%2520card%2520with%2520dismiss%2520and%2520shadow%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-horizontal%2520card-background-color%2520card-pos-rel%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520card-pos-abs%2520card-close-pos%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F170%252F200%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-top-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Horizontal%2520card%2520with%2520badge%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-horizontal%2520card-background-color%2520card-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-text%2520card-horizontal-badge-pos%2520flex-badge%2522%253Enew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F170%252F200%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-top-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Horizontal%2520card%2520with%2520text%2520overlay--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-horizontal%2520card-background-color%2520card-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOut%2520of%2520Stock%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F170%252F200%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-top-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+</body>
+</html>
