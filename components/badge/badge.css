@@ -57,6 +57,22 @@
     right: 4px;
 }
 
+.badge-text {
+    margin: 0;
+    font-size: 1.2rem;
+    width: 3.6rem;
+    height: 1.6rem;
+    background-color:var(--online-color);
+    position: absolute;
+    border-radius: 0.3125rem;
+    color: var(--white-color);
+}
+
+.badge-text-pos {
+    top: -0.8rem;
+    left: 9rem;
+}
+
 .flex-badge {
     display: flex;
     justify-content: center;
