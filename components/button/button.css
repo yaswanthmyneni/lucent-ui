@@ -14,10 +14,25 @@ button {
     color: var(--color-white);
 }
 
+.btn-primary:hover {
+    background-color: var(--color-green-700);
+}
+
 .btn-secondary {
     border: 2px solid var(--color-green-600);
     color: var(--color-green-600);
     background-color: var(--color-white);
+}
+
+.btn-secondary:hover {
+    color: var(--color-green-700);
+    border: 2px solid  var(--color-green-700);
+}
+
+.btn-flex {
+   display: flex;
+   align-items: center;
+   gap: 0.5em; 
 }
 
 .btn-link {
@@ -27,9 +42,18 @@ button {
     padding: 0;
 }
 
+.btn-link:hover {
+    text-decoration: underline;
+    color: var(--color-green-600);
+}
+
 .btn-danger {
     background-color: var(--color-red);
     color: var(--color-white);
+}
+
+.btn-danger:hover {
+    background-color: var(--color-red-700);
 }
 
 .btn-floating {
