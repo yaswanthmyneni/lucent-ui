@@ -1,0 +1,15 @@
+.image-container {
+    width: 33%;    
+}
+
+.image-resp {
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-resp-round {
+    width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
