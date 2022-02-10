@@ -1,6 +1,7 @@
 :root {
   --color-overlay: #ebecf0;
   --color-lightgrey: #d3d3d3;
+  --color-gray: #808080;
   --color-silver: #bcbcbc;
   --color-green-50: #ecfdf5;
   --color-green-100: #d1fae5;
@@ -15,6 +16,7 @@
   --color-orange: #ffa500;
   --color-white: #ffffff;
   --color-green: #008000;
+  --color-black: #000000;
 }
 
 .code-snippet {
@@ -37,6 +39,22 @@
   padding: 1rem;
   margin: 0.5rem 0;
   border-radius: 0.625rem;
+}
+
+.flex-direction {
+  flex-direction: column;
+}
+
+.align-item {
+  align-items: center;
+}
+
+.border {
+  border: 1px solid var(--color-black);
+}
+
+.padding-1 {
+  padding: 1rem;
 }
 
 .flex-gap-2 {
