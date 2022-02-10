@@ -29,8 +29,8 @@
     margin: 0.5rem 0;
 }
 
-.card-margin-left-right {
-    margin: 0 0.5rem;
+.card-margin-top {
+    margin-top: 0.8rem;
 }
 
 .card-margin-0 {
@@ -54,19 +54,16 @@
 }
 
 .card-close-pos {
-    top: 0.3rem;
-    right: 0.8rem;
+    top: 0.2rem;
+    right: 0.4rem;
+    cursor: pointer;
 }
 
 .card-close-pos:hover {
     color: var(--color-red);
 }
 
-.card-vertical-badge-pos {
-    top: 0.5rem;
-}
-
-.card-horizontal-badge-pos {
+.card-badge-pos {
     top: 0.5rem;
     left: 0rem;
 }
