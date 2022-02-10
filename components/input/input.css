@@ -1,0 +1,38 @@
+label {
+    margin-bottom: 0.3rem;
+}
+
+.input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    width: 20rem;
+    padding: 1rem;
+    border: 2px solid var(--color-green-400);
+    border-radius: 0.625rem;
+    background-color: var(--color-white);
+}
+
+.input-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-required {
+    color: var(--color-red);
+}
+
+.input-valid {
+    border: 2px solid var(--color-green-600);
+}
+
+.input-warning {
+    border: 2px solid var(--color-orange);
+}
+
+.input-error {
+    border: 2px solid var(--color-red);
+}
+
