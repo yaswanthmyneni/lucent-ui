@@ -2,7 +2,10 @@
   --color-overlay: #ebecf0;
   --color-lightgrey: #d3d3d3;
   --color-silver: #bcbcbc;
+  --color-green-50: #ecfdf5;
+  --color-green-100: #d1fae5;
   --color-green-200: #a7f3d0;
+  --color-green-400: #34d399;
   --color-green-300: #6EE7B7;
   --color-green-600: #059669;
   --color-green-700: #047857;
@@ -17,7 +20,7 @@
 .code-snippet {
   margin: 1rem 0rem;
   padding: 1rem 2rem;
-  background-color: var(--color-green-200);
+  background-color: var(--color-green-50);
   border-radius: 0.625rem;
   width: 42.5rem;
   border: 0;
@@ -30,7 +33,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  background-color: var(--color-lightgrey);
+  background-color: var(--color-green-50);
   padding: 1rem;
   margin: 0.5rem 0;
   border-radius: 0.625rem;
