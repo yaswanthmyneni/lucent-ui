@@ -1,0 +1,32 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css";
+@import "./components/alert/alert.css";
+@import "./components/avatar/avatar.css";
+@import "./components/badge/badge.css";
+@import "./components/button/button.css";
+@import "./components/card/card.css";
+@import "./components/input/input.css";
+@import "./components/list/list.css";
+@import "./components/navbar/navbar.css";
+@import "./components/responsive-image/image.css";
+@import "./components/text-utility/text-utility.css";
+
+:root {
+  --color-overlay: #ebecf0;
+  --color-lightgrey: #d3d3d3;
+  --color-gray: #808080;
+  --color-silver: #bcbcbc;
+  --color-green-50: #ecfdf5;
+  --color-green-100: #d1fae5;
+  --color-green-200: #a7f3d0;
+  --color-green-400: #34d399;
+  --color-green-300: #6EE7B7;
+  --color-green-600: #059669;
+  --color-green-700: #047857;
+  --color-red: #ff0000;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+  --color-orange: #ffa500;
+  --color-white: #ffffff;
+  --color-green: #008000;
+  --color-black: #000000;
+}
