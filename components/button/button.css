@@ -46,7 +46,6 @@ button {
 
 .btn-link:hover {
     text-decoration: underline;
-    color: var(--color-green-600);
 }
 
 .btn-danger {
@@ -76,12 +75,10 @@ button {
 }
 
 .btn-icon {
+    font-size: 1.5rem;
     background-color: transparent;
 }
 
 .btn-icon-danger {
     color: var(--color-red);
 }
-
-
-

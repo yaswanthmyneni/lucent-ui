@@ -1,0 +1,22 @@
+.navbar-container {
+    background-color: var(--color-green-600);
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar {
+    text-decoration: none;
+    color: var(--color-white);
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.navbar-m-left-auto {
+    margin-left: auto;
+}
+
+.navbar-m-0 {
+    margin: 0;
+}
