@@ -54,9 +54,11 @@
 }
 
 .card-close-pos {
-    top: 0.2rem;
-    right: 0.4rem;
+    font-size: 1.3rem;
+    top: 0.4rem;
+    right: 0.5rem;
     cursor: pointer;
+    color: var(--color-gray);
 }
 
 .card-close-pos:hover {
@@ -83,6 +85,7 @@
 }
 
 .card-text-overlay {
+    width: 100%;
     font-size: 1.35rem;
     font-weight: bolder;
     color: var(--color-red);
@@ -90,6 +93,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-text-overlay h3 {
+    font-size: 1.4rem;
 }
 
 .card-text-strick {

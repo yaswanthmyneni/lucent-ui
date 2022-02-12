@@ -1,30 +1,9 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css";
-
-:root {
-  --color-overlay: #ebecf0;
-  --color-lightgrey: #d3d3d3;
-  --color-gray: #808080;
-  --color-silver: #bcbcbc;
-  --color-green-50: #ecfdf5;
-  --color-green-100: #d1fae5;
-  --color-green-200: #a7f3d0;
-  --color-green-400: #34d399;
-  --color-green-300: #6EE7B7;
-  --color-green-600: #059669;
-  --color-green-700: #047857;
-  --color-red: #ff0000;
-  --color-red-600: #dc2626;
-  --color-red-700: #b91c1c;
-  --color-orange: #ffa500;
-  --color-white: #ffffff;
-  --color-green: #008000;
-  --color-black: #000000;
-}
+@import "../component.css";
 
 .code-snippet {
-  margin: 1rem 0rem;
-  padding: 1rem 2rem;
-  background-color: var(--color-green-50);
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-green-100);
   border-radius: 0.625rem;
   width: 42.5rem;
   border: 0;
@@ -37,7 +16,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  background-color: var(--color-green-50);
+  background-color: var(--color-green-100);
   padding: 1rem;
   margin: 0.5rem 0;
   border-radius: 0.625rem;
