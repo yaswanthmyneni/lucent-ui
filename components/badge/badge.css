@@ -19,8 +19,6 @@
 .badge-size-lg {
     width: 1.3rem;
     height: 1.3rem;
-    font-size: 11px;
-    color: var(--color-white);
 }
 
 .badge-size-md {
@@ -71,12 +69,7 @@
 
 .icon-badge {
     font-size: 1.5rem;
-    margin: 1rem 1rem 0px 0px;
-}
-
-.badge-pos-to-icon {
-    top: 0px;
-    right: 0px;
+    margin: 0.5rem 0.8rem 0px 0px;
 }
 
 .display-badge {
@@ -87,5 +80,11 @@
     position: relative;
 }
 
-
-
+.badge-to-icon {
+    border-radius: 1rem;
+    padding: 0 0.23rem;
+    color: var(--color-white);
+    top: 0px;
+    right: 0px;
+    font-size: 0.75rem;
+}
