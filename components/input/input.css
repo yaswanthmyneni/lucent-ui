@@ -4,6 +4,7 @@ label {
 
 .input {
     padding: 0.5rem;
+    background-color: transparent;
 }
 
 .input-container {
