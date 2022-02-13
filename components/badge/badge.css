@@ -48,7 +48,7 @@
 
 .badge-text {
     padding: 0rem 0.5rem;
-    background-color:var(--color-green-100);
+    background-color:var(--color-green-200);
     position: absolute;
     border-radius: 0.3125rem;
     color: var(--color-green-600);
