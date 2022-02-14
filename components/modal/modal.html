@@ -16,12 +16,12 @@
 
     <div class="container">
         <!-- Modal -->
-        <button onclick="displayModal()" class="btn btn-primary">Open Modal</button>
+        <button id="display-modal" class="btn btn-primary">Open Modal</button>
         <div id="modal-bg" class="modal-bg"></div>
         <div id="modal" class="modal">
             <div class="input-container modal-pos-rel">
                 <form class="input-flex">
-                    <i onclick="closeModal()" id="close-modal"
+                    <i id="close-modal" id="close-modal"
                         class="fa-solid fa-circle-xmark card-pos-abs card-close-pos"></i>
                     <h5 class="text-center">Reset Password</h5>
                     <p class="text-sm">Enter your email address and we will send you a link to reset your password.</p>
@@ -45,16 +45,18 @@
     <script>
         const modal = document.getElementById('modal');
         const modalBg = document.getElementById('modal-bg');
+        const displayModal = document.getElementById('display-modal');
+        const closeModal = document.getElementById('close-modal');
 
-        const displayModal = () => {
+        displayModal.addEventListener('click', () => {
             modal.style.display = 'block';
             modalBg.style.display = 'block';
-        };
-
-        const closeModal = () => {
+        });
+            
+        closeModal.addEventListener('click', () => {
             modal.style.display = 'none';
             modalBg.style.display = 'none';
-        };
+        });   
     </script>
 </body>
 
