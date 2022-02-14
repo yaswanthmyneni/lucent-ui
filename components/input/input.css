@@ -4,7 +4,8 @@ label {
 
 .input {
     padding: 0.5rem;
-    background-color: transparent;
+    border: 1px solid var(--color-silver);
+    outline: none;
 }
 
 .input-container {
@@ -37,3 +38,6 @@ label {
     border: 2px solid var(--color-red);
 }
 
+.input-container .btn{
+    margin-top: 8px;
+}
