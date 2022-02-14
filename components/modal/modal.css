@@ -4,6 +4,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 20;
 }
 
 .modal-bg {
@@ -15,6 +16,7 @@
     bottom: 0;
     right: 0;
     left: 0;
+    z-index: 19;
 }
 
 .modal-pos-rel {
