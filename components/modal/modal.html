@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+<body>
+    <h1>Modal</h1>
+    <p>By using below mentioned css classes, you can mirror the below components.</p>
+
+    <div class="container">
+        <!-- Modal -->
+        <button onclick="displayModal()" class="btn btn-primary">Open Modal</button>
+        <div id="modal-bg" class="modal-bg"></div>
+        <div id="modal" class="modal">
+            <div class="input-container modal-pos-rel">
+                <form class="input-flex">
+                    <i onclick="closeModal()" id="close-modal"
+                        class="fa-solid fa-circle-xmark card-pos-abs card-close-pos"></i>
+                    <h5 class="text-center">Reset Password</h5>
+                    <p class="text-sm">Enter your email address and we will send you a link to reset your password.</p>
+                    <label for="email">Email Id</label>
+                    <input class="input" type="text" id="email" name="email" placeholder="Enter your email address"
+                        required>
+                    <button class="btn btn-primary">Send reset link</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Modal%2520--%253E%250A%2520%2520%253Cbutton%2520onclick%253D%2522displayModal%28%29%2522%2520class%253D%2522btn%2520btn-primary%2522%253EOpen%2520Modal%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520id%253D%2522modal-bg%2522%2520class%253D%2522modal-bg%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2520modal-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522input-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520onclick%253D%2522closeModal%28%29%2522%2520id%253D%2522close-modal%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fa-solid%2520fa-circle-xmark%2520card-pos-abs%2520card-close-pos%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522text-center%2522%253EReset%2520Password%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-sm%2522%253EEnter%2520your%2520email%2520address%2520and%2520we%2520will%2520send%2520you%2520a%2520link%2520to%2520reset%2520your%2520password.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%2520Id%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%2520id%253D%2522email%2522%2520name%253D%2522email%2522%2520placeholder%253D%2522Enter%2520your%2520email%2520address%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520required%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESend%2520reset%2520link%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+    
+    <!-- Javascript -->
+    <script>
+        const modal = document.getElementById('modal');
+        const modalBg = document.getElementById('modal-bg');
+
+        const displayModal = () => {
+            modal.style.display = 'block';
+            modalBg.style.display = 'block';
+        };
+
+        const closeModal = () => {
+            modal.style.display = 'none';
+            modalBg.style.display = 'none';
+        };
+    </script>
+</body>
+
+</html>
