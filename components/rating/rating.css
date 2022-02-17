@@ -1,0 +1,9 @@
+.star-container {
+    color: var(--color-gray);
+    gap: 4px;
+    cursor: pointer;
+}
+
+.star:hover {
+    color: var(--color-orange);
+}
