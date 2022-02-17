@@ -9,6 +9,8 @@
 @import "./components/navbar/navbar.css";
 @import "./components/responsive-image/image.css";
 @import "./components/text-utility/text-utility.css";
+@import "./components/modal/modal.css";
+@import "./components/toast/toast.css";
 
 :root {
   --color-overlay: #ebecf0;
@@ -23,9 +25,12 @@
   --color-green-600: #059669;
   --color-green-700: #047857;
   --color-red: #ff0000;
+  --color-red-200: #fecaca;
   --color-red-600: #dc2626;
   --color-red-700: #b91c1c;
   --color-orange: #ffa500;
+  --color-orange-200: #fde68a;
+  --color-orange-600: #d97706;
   --color-white: #ffffff;
   --color-green: #008000;
   --color-black: #000000;
