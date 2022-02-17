@@ -9,6 +9,8 @@
 @import "./components/navbar/navbar.css";
 @import "./components/responsive-image/image.css";
 @import "./components/text-utility/text-utility.css";
+@import "./components/modal/modal.css";
+@import "./components/toast/toast.css";
 
 :root {
   --color-overlay: #ebecf0;
