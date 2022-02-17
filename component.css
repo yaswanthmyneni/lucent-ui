@@ -11,6 +11,8 @@
 @import "./components/text-utility/text-utility.css";
 @import "./components/modal/modal.css";
 @import "./components/toast/toast.css";
+@import "./components/grid/grid.css";
+@import "./components/rating/rating.css";
 
 :root {
   --color-overlay: #ebecf0;
