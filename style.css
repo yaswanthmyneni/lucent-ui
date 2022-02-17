@@ -37,12 +37,12 @@ body {
   height: calc(100vh - 4.8rem);
 }
 
-.aside h5 {
+.aside a {
   color: var(--color-black);
   transition: all 0.2s linear;
 }
 
-.aside h5:hover{
+.aside a:hover{
   color: var(--color-green-600);
   transform: translateX(5%);
 }
