@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import "./components/common.css";
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 .header h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   margin-left: 2.5rem;
 }
 
@@ -37,23 +37,38 @@ body {
   height: calc(100vh - 4.8rem);
 }
 
-.aside a {
-  color: var(--color-black);
-  transition: all 0.2s linear;
-}
-
-.aside a:hover{
-  color: var(--color-green-600);
-  transform: translateX(5%);
-}
-
 .aside-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
   width: 12rem;
-  padding: 1rem;
+  padding: 0 1rem;
   margin-left: 2rem;
+}
+
+.aside a {
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.aside a::before {
+  content: "";
+  display: inline-block;
+  padding: 3px;
+  border-radius: 1rem;
+  background-color: var(--color-black);
+  margin-right: 1rem;
+}
+
+.aside a:hover {
+  color: var(--color-green-600);
+  transform: translateX(7%);
+}
+
+.aside a:hover::before {
+  background-color: var(--color-green-600);
 }
 
 /* Content Section */
