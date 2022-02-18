@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rating</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="../common.css">
+</head>
+
+<body>
+    <h1>Rating</h1>
+    <p>The rating component provides an visual representation for users to submit their feedback.</p>
+
+    <div class="container">
+        <div id="star-container" class="star-container">
+            <i id="star-one" class="fa-solid fa-star star"></i>
+            <i id="star-two" class="fa-solid fa-star star"></i>
+            <i id="star-three" class="fa-solid fa-star star"></i>
+            <i id="star-four" class="fa-solid fa-star star"></i>
+            <i id="star-five" class="fa-solid fa-star star"></i>
+            <button id="btn" class="btn btn-primary">reset</button>
+        </div>
+    </div>
+    <div>
+        <iframe
+        class="code-snippet"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520id%253D%2522star-container%2522%2520class%253D%2522star-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-one%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-two%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-three%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-four%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-five%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522btn%2522%2520class%253D%2522btn%2520btn-primary%2522%253Ereset%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+    <script>
+        const starOne = document.getElementById('star-one');
+        const starTwo = document.getElementById('star-two');
+        const starThree = document.getElementById('star-three');
+        const starFour = document.getElementById('star-four');
+        const starFive = document.getElementById('star-five');
+        const btn = document.getElementById('btn');
+
+        starOne.addEventListener('click', () => {
+            starOne.style.color = "orange";
+            starTwo.style.color = "gray";
+            starThree.style.color = "gray";
+            starFour.style.color = "gray";
+            starFive.style.color = "gray";
+        });
+        starTwo.addEventListener('click', () => {
+            starOne.style.color = "orange";
+            starTwo.style.color = "orange";
+            starThree.style.color = "gray";
+            starFour.style.color = "gray";
+            starFive.style.color = "gray";
+        });
+        starThree.addEventListener('click', () => {
+            starOne.style.color = "orange";
+            starTwo.style.color = "orange";
+            starThree.style.color = "orange";
+            starFour.style.color = "gray";
+            starFive.style.color = "gray";
+        });
+        starFour.addEventListener('click', () => {
+            starOne.style.color = "orange";
+            starTwo.style.color = "orange";
+            starThree.style.color = "orange";
+            starFour.style.color = "orange";
+            starFive.style.color = "gray";
+        });
+        starFive.addEventListener('click', () => {
+            starOne.style.color = "orange";
+            starTwo.style.color = "orange";
+            starThree.style.color = "orange";
+            starFour.style.color = "orange";
+            starFive.style.color = "orange";
+        });
+        btn.addEventListener('click', () => {
+            starOne.style.color = "gray";
+            starTwo.style.color = "gray";
+            starThree.style.color = "gray";
+            starFour.style.color = "gray";
+            starFive.style.color = "gray";
+        });
+    </script>
+</body>
+
+</html>

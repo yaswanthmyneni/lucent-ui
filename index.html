@@ -75,6 +75,12 @@
                 <a class="navbar" href="#toast">
                     <h5>Toast</h5>
                 </a>
+                <a class="navbar" href="#rating">
+                    <h5>Rating</h5>
+                </a>
+                <a class="navbar" href="#grid">
+                    <h5>Grid</h5>
+                </a>
             </div>
         </aside>
         <!-- aside Ends -->
@@ -912,9 +918,6 @@
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
-
-                <!-- javascript link -->
-                <script src="./index.js"></script>
             </section>
             <!-- Modal Ends -->
 
@@ -949,8 +952,119 @@
                 </div>
             </section>
             <!-- Toast Ends -->
+
+            <!-- Rating Starts -->
+            <section id="rating">
+                <h1>Rating</h1>
+                <p>The rating component provides an visual representation for users to submit their feedback.</p>
+
+                <div class="container">
+                    <div id="star-container" class="star-container">
+                        <i id="star-one" class="fa-solid fa-star star"></i>
+                        <i id="star-two" class="fa-solid fa-star star"></i>
+                        <i id="star-three" class="fa-solid fa-star star"></i>
+                        <i id="star-four" class="fa-solid fa-star star"></i>
+                        <i id="star-five" class="fa-solid fa-star star"></i>
+                        <button id="btn" class="btn btn-primary">reset</button>
+                    </div>
+                </div>
+                <div>
+                    <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520id%253D%2522star-container%2522%2520class%253D%2522star-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-one%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-two%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-three%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-four%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-five%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522btn%2522%2520class%253D%2522btn%2520btn-primary%2522%253Ereset%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+            <!-- Rating Ends -->
+
+            <!-- Grid Starts -->
+            <section id="grid">
+                <h1>Grid</h1>
+                <p>
+                    Grids can be used to layout your page or a section of it. Some commonly used grid layouts are given
+                    below.
+                </p>
+
+                <h3>Grid two columns</h3>
+                <p>
+                    Here the grid is divided into two, according to the requirements of the project we can arrange the
+                    grid.
+                </p>
+                <!-- Grid 50 - 50 -->
+                <h4>Grid 50 - 50:</h4>
+                <div class="container">
+                    <div class="grid grid-50-50">
+                        <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                        <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                    </div>
+                </div>
+                <div>
+                    <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-50-50%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Grid 30 - 70 -->
+                <h4>Grid 30 - 70:</h4>
+                <div class="container">
+                    <div class="grid grid-30-70">
+                        <div class="height-25">
+                            <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                        </div>
+                        <div class="height-25">
+                            <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-30-70%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522height-25%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522height-25%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Grid 70 - 30 -->
+                <h4>Grid 70 - 30:</h4>
+                <div class="container">
+                    <div class="grid grid-70-30">
+                        <div class="height-25">
+                            <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                        </div>
+                        <div class="height-25">
+                            <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-70-30%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522height-25%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522height-25%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Grid 3 columns -->
+                <h3>Grid three columns</h3>
+                <p>
+                    Here the grid is divided into three columns, according to the requirements of the project we can
+                    arrange the grid.
+                </p>
+                <div class="container">
+                    <div class="grid grid-3">
+                        <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                        <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                        <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                    </div>
+                </div>
+                <div>
+                    <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+            <!-- Grid Ends -->
         </div>
         <!-- Main Ends -->
+
+        <script src="./index.js"></script>
     </main>
 </body>
 
