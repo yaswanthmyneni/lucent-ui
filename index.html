@@ -8,6 +8,7 @@
     <title>Lucent UI</title>
     <!-- CSS Links -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./prism/prism.css">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
             <a class="navbar-m-left-auto navbar" href="#">
                 <h5>HOME</h5>
             </a>
-            <a class="navbar navbar-m-lr-1" href="#">
+            <a class="navbar navbar-m-lr-1 navbar-m-l-2" href="#">
                 <i class="fa-brands fa-github"></i>
             </a>
             <a class="navbar navbar-m-lr-1" href="#">
@@ -94,11 +95,10 @@
                     <p>In order to introduce Lucent UI to your project, Copy the Link given below and paste it in the
                         your css file.</p>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2540import%2520%2522https%253A%252F%252Fym-cl-doc-site.netlify.app%252Fcomponent.css%2522%253B"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        @import "http://ym-cl-dev.netlify.app/component.css"
+                    </script>
                 </div>
             </section>
             <!-- Installation Ends -->
@@ -126,11 +126,25 @@
                         <strong>Danger!</strong> This is a danger alert.
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253C%21--%2520success%2520alert%2520--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520success%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%21--%2520info%2520alert%2520--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EInfo%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520info%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%21--%2520warning%2520alert%2520--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253Ewarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520warning%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%21--%2520danger%2520alert%2520--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EDanger%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520danger%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- success alert -->
+                    <div class="alert alert-success">
+                        <strong>Success!</strong> This is a success alert.
+                    </div>
+                    <!-- info alert -->
+                    <div class="alert alert-info">
+                        <strong>Info!</strong> This is a info alert.
+                    </div>
+                    <!-- warning alert -->
+                    <div class="alert alert-warning">
+                        <strong>warning!</strong> This is a warning alert.
+                    </div>
+                    <!-- danger alert -->
+                    <div class="alert alert-danger">
+                        <strong>Danger!</strong> This is a danger alert.
+                    </div>
+                    </script>
                 </div>
 
                 <!-- alerts with icons -->
@@ -158,11 +172,29 @@
                         This is danger alert.
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253C%21--%2520success%2520alert%2520--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2520alert-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520success%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%21--%2520info%2520alert%2520--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-info%2520alert-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520info%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%21--%2520warning%2520alert%2520--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2520alert-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520warning%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%21--%2520danger%2520alert%2520--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger%2520alert-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bug%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520danger%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- success alert -->
+                    <div class="alert alert-success alert-border">
+                        <i class="fas fa-check-circle"></i>
+                        This is success alert.
+                    </div>
+                    <!-- info alert -->
+                    <div class="alert alert-info alert-border">
+                        <i class="fas fa-info-circle"></i>
+                        This is info alert.
+                    </div>
+                    <!-- warning alert -->
+                    <div class="alert alert-warning alert-border">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        This is warning alert.
+                    </div>
+                    <!-- danger alert -->
+                    <div class="alert alert-danger alert-border">
+                        <i class="fas fa-bug"></i>
+                        This is danger alert.
+                    </div>
+                    </script>
                 </div>
             </section>
             <!-- Alert Ends -->
@@ -192,11 +224,25 @@
                         <img class="avatar-sm avatar-image" src="../../images/face.jpg" alt="avatar icon">
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520avatar-xl%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-xl%2520avatar-image%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522avatar%2520icon%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520avatar-lg%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-lg%2520avatar-image%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522avatar%2520icon%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520avatar-md%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-md%2520avatar-image%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522avatar%2520icon%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520avatar-sm%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-sm%2520avatar-image%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522avatar%2520icon%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- avatar-xl -->
+                    <div class="avatar">
+                        <img class="avatar-xl avatar-image" src="../../images/face.jpg" alt="avatar icon">
+                    </div>
+                    <!-- avatar-lg -->
+                    <div class="avatar">
+                        <img class="avatar-lg avatar-image" src="../../images/face.jpg" alt="avatar icon">
+                    </div>
+                    <!-- avatar-md -->
+                    <div class="avatar">
+                        <img class="avatar-md avatar-image" src="../../images/face.jpg" alt="avatar icon">
+                    </div>
+                    <!-- avatar-sm -->
+                    <div class="avatar">
+                        <img class="avatar-sm avatar-image" src="../../images/face.jpg" alt="avatar icon">
+                    </div>
+                    </script>
                 </div>
 
                 <!-- Avatar - Text -->
@@ -228,11 +274,33 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520avatar-xl%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-xl%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%253EYM%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520avatar-lg%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%253EYM%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520avatar-md%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%253EYM%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520avatar-sm%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%253EYM%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- avatar-xl -->
+                    <div class="avatar">
+                        <div class="avatar-text avatar-xl">
+                            <span>YM</span>
+                        </div>
+                    </div>
+                    <!-- avatar-lg -->
+                    <div class="avatar">
+                        <div class="avatar-text avatar-lg">
+                            <span>YM</span>
+                        </div>
+                    </div>
+                    <!-- avatar-md -->
+                    <div class="avatar">
+                        <div class="avatar-text avatar-md">
+                            <span>YM</span>
+                        </div>
+                    </div>
+                    <!-- avatar-sm -->
+                    <div class="avatar">
+                        <div class="avatar-text avatar-sm">
+                            <span>YM</span>
+                        </div>
+                    </div>
+                    </script>
                 </div>
             </section>
             <!-- Avatar Ends -->
@@ -262,11 +330,24 @@
                         <span class="badge badge-busy badge-size-sm badge-position-sm"></span>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520badge-size-lg%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2520pos-rel-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-lg%2520avatar-image%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522avatar%2520with%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-online%2520badge-size-lg%2520badge-position-lg%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520badge-size-md%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2520pos-rel-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-md%2520avatar-image%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522avatar%2520with%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-offline%2520badge-size-md%2520badge-position-md%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520badge-size-sm%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar%2520pos-rel-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-sm%2520avatar-image%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522avatar%2520with%2520badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-busy%2520badge-size-sm%2520badge-position-sm%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- badge-size-lg -->
+                    <div class="avatar pos-rel-badge">
+                        <img class="avatar-lg avatar-image" src="../../images/face.jpg" alt="avatar with badge">
+                        <span class="badge badge-online badge-size-lg badge-position-lg"></span>
+                    </div>
+                    <!-- badge-size-md -->
+                    <div class="avatar pos-rel-badge">
+                        <img class="avatar-md avatar-image" src="../../images/face.jpg" alt="avatar with badge">
+                        <span class="badge badge-offline badge-size-md badge-position-md"></span>
+                    </div>
+                    <!-- badge-size-sm -->
+                    <div class="avatar pos-rel-badge">
+                        <img class="avatar-sm avatar-image" src="../../images/face.jpg" alt="avatar with badge">
+                        <span class="badge badge-busy badge-size-sm badge-position-sm"></span>
+                    </div>
+                    </script>
                 </div>
 
                 <!-- Icon with badge -->
@@ -287,11 +368,22 @@
                         <span class="badge badge-online badge-to-icon">9</span>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Icon%2520with%2520badge%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522display-badge%2520pos-rel-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon-badge%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-online%2520badge-to-icon%2522%253E99%252B%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522display-badge%2520pos-rel-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon-badge%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-online%2520badge-to-icon%2522%253E99%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522display-badge%2520pos-rel-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520icon-badge%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-online%2520badge-to-icon%2522%253E9%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- Icon with badge -->
+                    <div class="display-badge pos-rel-badge">
+                        <i class="fas fa-shopping-cart icon-badge"></i>
+                        <span class="badge badge-online badge-to-icon">99+</span>
+                    </div>
+                    <div class="display-badge pos-rel-badge">
+                        <i class="fas fa-shopping-cart icon-badge"></i>
+                        <span class="badge badge-online badge-to-icon">99</span>
+                    </div>
+                    <div class="display-badge pos-rel-badge">
+                        <i class="fas fa-shopping-cart icon-badge"></i>
+                        <span class="badge badge-online badge-to-icon">9</span>
+                    </div>
+                    </script>
                 </div>
 
                 <!-- Text badge -->
@@ -301,11 +393,13 @@
                     <p>Text badge small text.</p>
                     <span class="badge-text badge-text-pos flex-badge">new</span>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522pos-rel-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EText%2520badge%2520small%2520text.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-text%2520badge-text-pos%2520flex-badge%2522%253Enew%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="pos-rel-badge">
+                            <p>Text badge small text.</p>
+                            <span class="badge-text badge-text-pos flex-badge">new</span>
+                        </div>
+                    </script>
                 </div>
             </section>
             <!-- Badge Ends -->
@@ -325,11 +419,13 @@
                     <button class="btn btn-secondary">Secondary</button>
                     <button class="btn-link">Link</button>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDelete%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-link%2522%253ELink%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-danger">Delete</button>
+                        <button class="btn btn-secondary">Secondary</button>
+                        <button class="btn-link">Link</button>
+                    </script>
                 </div>
 
                 <!-- icon and floating action buttons -->
@@ -346,11 +442,18 @@
                         <i class="fas fa-plus"></i>
                     </button>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2520btn-icon-danger%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-floating%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <button class="btn btn-icon">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <button class="btn btn-icon">
+                            <i class="fas fa-trash-alt btn-icon-danger"></i>
+                        </button>
+                        <button class="btn-floating">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </script>
                 </div>
 
                 <!-- Icon buttons with text -->
@@ -370,12 +473,22 @@
                         <span>Delete</span>
                     </button>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253EHome%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-danger%2520btn-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253EDelete%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <button class="btn btn-secondary btn-flex">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>Add to cart</span>
+                        </button>
+                        <button class="btn btn-primary btn-flex">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </button>
+                        <button class="btn btn-danger btn-flex">
+                            <i class="fas fa-trash-alt"></i>
+                            <span>Delete</span>
+                        </button>
+                    </script>
+                </div>>
             </section>
             <!-- Button Ends -->
 
@@ -429,11 +542,41 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Text%2520card%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-border-radius%2520card-background-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-margin-bottom%2522%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2520card-subtitle%2522%253ESubtitle%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Fugit%2520eius%2520optio%2520necessitatibus%2520velit.%2520Accusamus%252C%2520culpa%253F%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520Text%2520card%2520with%2520dismiss%2520and%2520shadow%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-border-radius%2520card-background-color%2520card-pos-rel%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-xmark%2520card-pos-abs%2520card-close-pos%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-margin-bottom%2522%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2520card-subtitle%2522%253ESubtitle%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Fugit%2520eius%2520optio%2520necessitatibus%2520velit.%2520Accusamus%252C%2520culpa%253F%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520Text%2520card%2520with%2520text%2520overlay%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-border-radius%2520card-background-color%2520card-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-margin-bottom%2522%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2520card-subtitle%2522%253ESubtitle%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Fugit%2520eius%2520optio%2520necessitatibus%2520velit.%2520Accusamus%252C%2520culpa%253F%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOut%2520of%2520Stock%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- Text card -->
+                    <div class="card card-border-radius card-background-color">
+                        <h2 class="card-margin-bottom">Title</h2>
+                        <p class="card-margin-bottom card-subtitle">Subtitle</p>
+                        <p class="card-margin-bottom">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius optio necessitatibus
+                            velit. Accusamus, culpa?
+                        </p>
+                    </div>
+                    <!-- Text card with dismiss and shadow -->
+                    <div class="card card-border-radius card-background-color card-pos-rel card-box-shadow">
+                        <i class="fa-solid fa-circle-xmark card-pos-abs card-close-pos"></i>
+                        <h2 class="card-margin-bottom">Title</h2>
+                        <p class="card-margin-bottom card-subtitle">Subtitle</p>
+                        <p class="card-margin-bottom">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius optio necessitatibus
+                            velit. Accusamus, culpa?
+                        </p>
+                    </div>
+                    <!-- Text card with text overlay -->
+                    <div class="card card-border-radius card-background-color card-pos-rel">
+                        <h2 class="card-margin-bottom">Title</h2>
+                        <p class="card-margin-bottom card-subtitle">Subtitle</p>
+                        <p class="card-margin-bottom">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius optio necessitatibus
+                            velit. Accusamus, culpa?
+                        </p>
+                        <div class="card-overlay"></div>
+                        <div class="card-text-overlay">
+                            <h3>Out of Stock</h3>
+                        </div>
+                    </div>
+                    </script>
                 </div>
 
                 <!-- Image Card - Vertical-->
@@ -500,14 +643,68 @@
                     </div>
                 </div>
                 <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Vertical%2520card%2520with%2520dismiss%252C%2520shadow%2520and%2520badge%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-background-color%2520card-pos-rel%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-xmark%2520card-pos-abs%2520card-close-pos%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-text%2520card-badge-pos%2520flex-badge%2522%253Enew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F270%252F210%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2520card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Vertical%2520card%2520with%2520text%2520overlay%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-background-color%2520card-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOut%2520of%2520Stock%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F270%252F210%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin-bottom%2520card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2520card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                    <div class="prism-js">
+                        <script type="text/plain" class="line-numbers language-markup">
+                            <!-- Vertical card with dismiss, shadow and badge -->
+                        <div class="card card-vertical card-background-color card-pos-rel card-box-shadow">
+                            <i class="fa-solid fa-circle-xmark card-pos-abs card-close-pos"></i>
+                            <span class="badge-text card-badge-pos flex-badge">new</span>
+                            <img src="https://picsum.photos/270/210" alt="image">
+                            <div class="card-margin">
+                                <p class="card-margin-bottom">Essential</p>
+                                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                                <p class="card-margin-bottom">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis
+                                    obcaecati facere commodi?
+                                </p>
+                                <div class="card-margin-bottom card-align-items">
+                                    <h3 class="card-margin-0 card-display">$149</h3>
+                                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                                </div>
+                            </div>
+                            <div class="card-flex card-margin-bottom">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-secondary btn-flex">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                        </script>
+                    </div>
+                    <div class="prism-js">
+                        <script type="text/plain" class="line-numbers language-markup">
+                        <!-- Vertical card with text overlay -->
+                        <div class="card card-vertical card-background-color card-pos-rel">
+                            <div class="card-overlay"></div>
+                            <div class="card-text-overlay">
+                                <h3>Out of Stock</h3>
+                            </div>
+                            <img src="https://picsum.photos/270/210" alt="image">
+                            <div class="card-margin">
+                                <p class="card-margin-bottom">Essential</p>
+                                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                                <p class="card-margin-bottom">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis
+                                    obcaecati facere commodi?
+                                </p>
+                                <div class="card-margin-bottom card-align-items">
+                                    <h3 class="card-margin-0 card-display">$149</h3>
+                                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                                </div>
+                            </div>
+                            <div class="card-flex card-margin-bottom">
+                                <button class="btn btn-primary">Buy Now</button>
+                                <button class="btn btn-secondary btn-flex">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                        </script>
+                    </div>
                 </div>
 
                 <!-- Image Card - Horizontal-->
@@ -575,14 +772,68 @@
                     </div>
                 </div>
                 <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Horizontal%2520card%2520with%2520dismiss%252C%2520shadow%2520and%2520badge%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-horizontal%2520card-background-color%2520card-pos-rel%2520card-box-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-text%2520card-badge-pos%2520flex-badge%2522%253Enew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-xmark%2520card-pos-abs%2520card-close-pos%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F170%252F200%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-top-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2520card-margin-top%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Horizontal%2520card%2520with%2520text%2520overlay--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520card-horizontal%2520card-background-color%2520card-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EOut%2520of%2520Stock%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F170%252F200%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-margin%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-top-bottom%2522%253EEssential%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-bottom%2522%253EYoga%2520Mat%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-margin-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520At%2520quibusdam%2520perferendis%2520obcaecati%2520facere%2520commodi%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-align-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2522%253E%2524149%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-margin-0%2520card-display%2520card-text-strick%2522%253E%2524200%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-margin-0%2520card-display%2520card-discount%2522%253E25%2525%2520off%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-flex%2520card-margin-top%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                    <div class="prism-js">
+                        <script type="text/plain" class="line-numbers language-markup">
+                            <!-- Horizontal card with dismiss, shadow and badge -->
+                        <div class="card card-horizontal card-background-color card-pos-rel card-box-shadow">
+                            <span class="badge-text card-badge-pos flex-badge">new</span>
+                            <i class="fa-solid fa-circle-xmark card-pos-abs card-close-pos"></i>
+                            <img src="https://picsum.photos/170/200" alt="image">
+                            <div class="card-margin">
+                                <p class="card-margin-top-bottom">Essential</p>
+                                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                                <p class="card-margin-bottom">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis
+                                    obcaecati facere commodi?
+                                </p>
+                                <div class="card-align-items">
+                                    <h3 class="card-margin-0 card-display">$149</h3>
+                                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                                </div>
+                                <div class="card-flex card-margin-top">
+                                    <button class="btn btn-primary">Buy Now</button>
+                                    <button class="btn btn-secondary btn-flex">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Add to cart</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </script>
+                    </div>
+                    <div class="prism-js">
+                        <script type="text/plain" class="line-numbers language-markup">
+                        <!-- Horizontal card with text overlay-->
+                        <div class="card card-horizontal card-background-color card-pos-rel">
+                            <div class="card-overlay"></div>
+                            <div class="card-text-overlay">
+                                <h3>Out of Stock</h3>
+                            </div>
+                            <img src="https://picsum.photos/170/200" alt="image">
+                            <div class="card-margin">
+                                <p class="card-margin-top-bottom">Essential</p>
+                                <h3 class="card-margin-bottom">Yoga Mat</h3>
+                                <p class="card-margin-bottom">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quibusdam perferendis
+                                    obcaecati facere commodi?
+                                </p>
+                                <div class="card-align-items">
+                                    <h3 class="card-margin-0 card-display">$149</h3>
+                                    <h4 class="card-margin-0 card-display card-text-strick">$200</h4>
+                                    <h3 class="card-margin-0 card-display card-discount">25% off</h3>
+                                </div>
+                                <div class="card-flex card-margin-top">
+                                    <button class="btn btn-primary">Buy Now</button>
+                                    <button class="btn btn-secondary btn-flex">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Add to cart</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </script>
+                    </div>
                 </div>
             </section>
             <!-- Card Ends -->
@@ -605,11 +856,19 @@
                         </form>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522input-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EFirst%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%2520id%253D%2522name%2522%2520name%253D%2522name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%2520Id%253Cspan%2520class%253D%2522input-required%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%2520id%253D%2522email%2522%2520name%253D%2522email%2522%2520required%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- Input textbox -->
+                    <div class="input-container">
+                        <form class="input-flex">
+                            <label for="name">First Name</label>
+                            <input class="input" type="text" id="name" name="name">
+                            <label for="email">Email Id<span class="input-required">*</span></label>
+                            <input class="input" type="email" id="email" name="email" required>
+                            <button class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    </script>
                 </div>
 
                 <h3>Input validation and errors styles:</h3>
@@ -627,11 +886,19 @@
                         </form>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cform%2520class%253D%2522input-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%253EValid%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-valid%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%253EWarning%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-warning%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%253EError%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-error%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%253C%252Fform%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="input-container">
+                            <form class="input-flex">
+                                <label>Valid</label>
+                                <input class="input input-valid" type="text">
+                                <label>Warning</label>
+                                <input class="input input-warning" type="text">
+                                <label>Error</label>
+                                <input class="input input-error" type="text">
+                            </form>
+                        </div>
+                    </script>
                 </div>
             </section>
             <!-- Input Ends -->
@@ -670,11 +937,33 @@
                         <li>item</li>
                     </ul>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520unordered%2520list%2520-%2520circle--%253E%250A%2520%2520%253Cul%2520class%253D%2522ul-circle%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%21--%2520Unordered%2520list%2520-%2520square%2520--%253E%250A%2520%2520%253Cul%2520class%253D%2522ul-square%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%21--%2520unordered%2520list%2520-%2520disc%2520--%253E%250A%2520%2520%253Cul%2520class%253D%2522ul-disc%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%21--%2520unordered%2520list%2520-%2520none%2520--%253E%250A%2520%2520%253Cul%2520class%253D%2522ul-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- unordered list - circle-->
+                    <ul class="ul-circle">
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ul>
+                    <!-- Unordered list - square -->
+                    <ul class="ul-square">
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ul>
+                    <!-- unordered list - disc -->
+                    <ul class="ul-disc">
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ul>
+                    <!-- unordered list - none -->
+                    <ul class="ul-none">
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ul>
+                    </script>
                 </div>
 
                 <!-- Ordered list -->
@@ -711,11 +1000,39 @@
                         <li>item</li>
                     </ol>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520ordered%2520list%2520-%2520number--%253E%250A%2520%2520%253Col%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%21--%2520ordered%2520list%2520-%2520lower%2520alpha%2520--%253E%250A%2520%2520%253Col%2520class%253D%2522ol-lower-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%21--%2520ordered%2520list%2520-%2520upper%2520alpha%2520--%253E%250A%2520%2520%253Col%2520class%253D%2522ol-upper-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%21--%2520ordered%2520list%2520-%2520lower%2520roman%2520--%253E%250A%2520%2520%253Col%2520class%253D%2522ol-lower-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%21--%2520ordered%2520list%2520-%2520upper%2520roman%2520--%253E%250A%2520%2520%253Col%2520class%253D%2522ol-upper-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- ordered list - number-->
+                    <ol>
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ol>
+                    <!-- ordered list - lower alpha -->
+                    <ol class="ol-lower-alpha">
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ol>
+                    <!-- ordered list - upper alpha -->
+                    <ol class="ol-upper-alpha">
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ol>
+                    <!-- ordered list - lower roman -->
+                    <ol class="ol-lower-roman">
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ol>
+                    <!-- ordered list - upper roman -->
+                    <ol class="ol-upper-roman">
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ol>
+                    </script>
                 </div>
 
                 <!-- Stacked List -->
@@ -728,11 +1045,15 @@
                         <li>list stacked one upon another.</li>
                     </ul>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cul%2520class%253D%2522list-stacked%2520ul-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520stacked%2520one%2520upon%2520another.%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520stacked%2520one%2520upon%2520another.%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520stacked%2520one%2520upon%2520another.%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- stacked list -->
+                    <ul class="list-stacked ul-none">
+                        <li>list stacked one upon another.</li>
+                        <li>list stacked one upon another.</li>
+                        <li>list stacked one upon another.</li>
+                    </ul>
+                    </script>
                 </div>
             </section>
             <!-- List Ends -->
@@ -767,11 +1088,33 @@
                         <i class="fa-brands fa-twitter"></i>
                     </a>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522navbar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navbar%2520navbar-m-lr-1%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navbar%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522navbar-m-lr-1%2522%253ELUCENT%2520UI%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navbar-m-left-auto%2520navbar%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EHOME%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navbar%2520navbar-m-lr-1%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EDOCUMENTATION%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navbar%2520navbar-m-lr-1%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-brands%2520fa-github%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navbar%2520navbar-m-lr-1%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-brands%2520fa-linkedin%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navbar%2520navbar-m-lr-1%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-brands%2520fa-twitter%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- Navbar -->
+                    <div class="navbar-container">
+                        <a class="navbar navbar-m-lr-1" href="#">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <a class="navbar" href="#">
+                            <h1 class="navbar-m-lr-1">LUCENT UI</h1>
+                        </a>
+                        <a class="navbar-m-left-auto navbar" href="#">
+                            <h5>HOME</h5>
+                        </a>
+                        <a class="navbar navbar-m-lr-1" href="#">
+                            <h5>DOCUMENTATION</h5>
+                        </a>
+                        <a class="navbar navbar-m-lr-1" href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a class="navbar navbar-m-lr-1" href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a class="navbar navbar-m-lr-1" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    </script>
                 </div>
             </section>
             <!-- Navbar Ends -->
@@ -789,11 +1132,13 @@
                         <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- Image -->
+                    <div class="image-container">
+                        <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                    </div>
+                    </script>
                 </div>
 
                 <!-- Responsive Image - Round -->
@@ -804,11 +1149,13 @@
                         <img class="image-resp-round" src="../../images/face.jpg" alt="responsive image">
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp-round%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- Image round -->
+                    <div class="image-container">
+                        <img class="image-resp-round" src="../../images/face.jpg" alt="responsive image">
+                    </div>
+                    </script>
                 </div>
             </section>
             <!-- Responsive Image Ends -->
@@ -828,11 +1175,15 @@
                     <h5>H5 Heading.</h5>
                     <h6>H6 Heading.</h6>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Ch1%253EH1%2520Heading.%253C%252Fh1%253E%250A%2520%2520%253Ch2%253EH2%2520Heading.%253C%252Fh2%253E%250A%2520%2520%253Ch3%253EH3%2520Heading.%253C%252Fh3%253E%250A%2520%2520%253Ch4%253EH4%2520Heading.%253C%252Fh4%253E%250A%2520%2520%253Ch5%253EH5%2520Heading.%253C%252Fh5%253E%250A%2520%2520%253Ch6%253EH6%2520Heading.%253C%252Fh6%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                            <h1>H1 Heading.</h1>
+                            <h2>H2 Heading.</h2>
+                            <h3>H3 Heading.</h3>
+                            <h4>H4 Heading.</h4>
+                            <h5>H5 Heading.</h5>
+                            <h6>H6 Heading.</h6>
+                    </script>
                 </div>
 
                 <!-- Text Sizes -->
@@ -844,11 +1195,14 @@
                     <p class="text-sm">Small Paragraph.</p>
                     <p class="text-xsm">Extra Small Paragraph.</p>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cp%2520class%253D%2522text-xl%2522%253EExtra%2520Large%2520Paragraph.%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-lg%2522%253ELarge%2520Paragraph.%253C%252Fp%253E%250A%2520%2520%253Cp%253EMedium%2520Paragraph.%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-sm%2522%253ESmall%2520Paragraph.%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-xsm%2522%253EExtra%2520Small%2520Paragraph.%253C%252Fp%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                            <p class="text-xl">Extra Large Paragraph.</p>
+                            <p class="text-lg">Large Paragraph.</p>
+                            <p>Medium Paragraph.</p>
+                            <p class="text-sm">Small Paragraph.</p>
+                            <p class="text-xsm">Extra Small Paragraph.</p>
+                    </script>
                 </div>
 
                 <!-- Text alignment -->
@@ -864,11 +1218,12 @@
                         <p class="text-right">Right-side text.</p>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cp%2520class%253D%2522text-left%2522%253ELeft-side%2520text.%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-center%2522%253Ecenter%2520text.%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-right%2522%253ERight-side%2520text.%253C%252Fp%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <p class="text-left">Left-side text.</p>
+                        <p class="text-center">center text.</p>
+                        <p class="text-right">Right-side text.</p>
+                    </script>
                 </div>
 
                 <!-- Other utilities -->
@@ -878,11 +1233,12 @@
                     <p class="text-strick">Strick text.</p>
                     <p class="text-underline">Underline text.</p>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cp%2520class%253D%2522text-gray%2522%253EGray%2520text.%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-strick%2522%253EStrick%2520text.%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-underline%2522%253EUnderline%2520text.%253C%252Fp%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <p class="text-gray">Gray text.</p>
+                        <p class="text-strick">Strick text.</p>
+                        <p class="text-underline">Underline text.</p>
+                    </script>
                 </div>
             </section>
             <!-- Text Utility Ends -->
@@ -912,11 +1268,46 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Modal%2520--%253E%250A%2520%2520%253Cbutton%2520onclick%253D%2522displayModal%28%29%2522%2520class%253D%2522btn%2520btn-primary%2522%253EOpen%2520Modal%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520id%253D%2522modal-bg%2522%2520class%253D%2522modal-bg%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2520modal-pos-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522input-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520onclick%253D%2522closeModal%28%29%2522%2520id%253D%2522close-modal%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fa-solid%2520fa-circle-xmark%2520card-pos-abs%2520card-close-pos%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522text-center%2522%253EReset%2520Password%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-sm%2522%253EEnter%2520your%2520email%2520address%2520and%2520we%2520will%2520send%2520you%2520a%2520link%2520to%2520reset%2520your%2520password.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%2520Id%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%2520id%253D%2522email%2522%2520name%253D%2522email%2522%2520placeholder%253D%2522Enter%2520your%2520email%2520address%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520required%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESend%2520reset%2520link%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                    <!-- Modal -->
+                    <div id="modal-bg" class="modal-bg"></div>
+                    <div id="modal" class="modal">
+                        <div class="input-container modal-pos-rel">
+                            <form class="input-flex">
+                                <i id="close-modal" class="fa-solid fa-circle-xmark card-pos-abs card-close-pos"></i>
+                                <h5 class="text-center">Reset Password</h5>
+                                <p class="text-sm">Enter your email address and we will send you a link to reset your
+                                    password.</p>
+                                <label for="email">Email Id</label>
+                                <input class="input" type="text" id="email" name="email"
+                                    placeholder="Enter your email address" required>
+                                <button class="btn btn-primary">Send reset link</button>
+                            </form>
+                        </div>
+                    </div>
+                    </script>
+                </div>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        // For Modal Component
+                        const modal = document.getElementById("modal");
+                        const modalBg = document.getElementById("modal-bg");
+                        const displayModal = document.getElementById("display-modal");
+                        const closeModal = document.getElementById("close-modal");
+                        
+                        displayModal.addEventListener("click", () => {
+                          modalBg.style.display = "block";
+                          modal.style.display = "block";
+                          document.body.style.overflow = "hidden";
+                        });
+                        
+                        closeModal.addEventListener("click", () => {
+                          modal.style.display = "none";
+                          modalBg.style.display = "none";
+                          document.body.style.overflow = "visible";
+                        });
+                    </script>
                 </div>
             </section>
             <!-- Modal Ends -->
@@ -944,11 +1335,24 @@
                         <span class="text-xl  toast-flex">Warning!</span>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520toast%2520-%2520success%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-xmark%2520toast-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-xl%2520%2520toast-flex%2522%253Esuccessful%21%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520toast%2520-%2520error%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-xmark%2520toast-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-xl%2520%2520toast-flex%2522%253EError%21%2520Retry.%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520toast%2520-%2520warning%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-circle-xmark%2520toast-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-xl%2520%2520toast-flex%2522%253EWarning%21%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <!-- toast - success -->
+                    <div class="toast toast-success">
+                        <i class="fa-solid fa-circle-xmark toast-icon"></i>
+                        <span class="text-xl  toast-flex">successful!</span>
+                    </div>
+                    <!-- toast - error -->
+                    <div class="toast toast-error">
+                        <i class="fa-solid fa-circle-xmark toast-icon"></i>
+                        <span class="text-xl  toast-flex">Error! Retry.</span>
+                    </div>
+                    <!-- toast - warning -->
+                    <div class="toast toast-warning">
+                        <i class="fa-solid fa-circle-xmark toast-icon"></i>
+                        <span class="text-xl  toast-flex">Warning!</span>
+                    </div>
+                    </script>
                 </div>
             </section>
             <!-- Toast Ends -->
@@ -968,11 +1372,71 @@
                         <button id="btn" class="btn btn-primary">reset</button>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520id%253D%2522star-container%2522%2520class%253D%2522star-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-one%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-two%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-three%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-four%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522star-five%2522%2520class%253D%2522fa-solid%2520fa-star%2520star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522btn%2522%2520class%253D%2522btn%2520btn-primary%2522%253Ereset%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div id="star-container" class="star-container">
+                            <i id="star-one" class="fa-solid fa-star star"></i>
+                            <i id="star-two" class="fa-solid fa-star star"></i>
+                            <i id="star-three" class="fa-solid fa-star star"></i>
+                            <i id="star-four" class="fa-solid fa-star star"></i>
+                            <i id="star-five" class="fa-solid fa-star star"></i>
+                            <button id="btn" class="btn btn-primary">reset</button>
+                        </div>
+                    </script>
+                </div>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        // For Rating Component
+                        const starOne = document.getElementById("star-one");
+                        const starTwo = document.getElementById("star-two");
+                        const starThree = document.getElementById("star-three");
+                        const starFour = document.getElementById("star-four");
+                        const starFive = document.getElementById("star-five");
+                        const btn = document.getElementById("btn");
+                        
+                        starOne.addEventListener("click", () => {
+                          starOne.style.color = "orange";
+                          starTwo.style.color = "gray";
+                          starThree.style.color = "gray";
+                          starFour.style.color = "gray";
+                          starFive.style.color = "gray";
+                        });
+                        starTwo.addEventListener("click", () => {
+                          starOne.style.color = "orange";
+                          starTwo.style.color = "orange";
+                          starThree.style.color = "gray";
+                          starFour.style.color = "gray";
+                          starFive.style.color = "gray";
+                        });
+                        starThree.addEventListener("click", () => {
+                          starOne.style.color = "orange";
+                          starTwo.style.color = "orange";
+                          starThree.style.color = "orange";
+                          starFour.style.color = "gray";
+                          starFive.style.color = "gray";
+                        });
+                        starFour.addEventListener("click", () => {
+                          starOne.style.color = "orange";
+                          starTwo.style.color = "orange";
+                          starThree.style.color = "orange";
+                          starFour.style.color = "orange";
+                          starFive.style.color = "gray";
+                        });
+                        starFive.addEventListener("click", () => {
+                          starOne.style.color = "orange";
+                          starTwo.style.color = "orange";
+                          starThree.style.color = "orange";
+                          starFour.style.color = "orange";
+                          starFive.style.color = "orange";
+                        });
+                        btn.addEventListener("click", () => {
+                          starOne.style.color = "gray";
+                          starTwo.style.color = "gray";
+                          starThree.style.color = "gray";
+                          starFour.style.color = "gray";
+                          starFive.style.color = "gray";
+                        });                        
+                    </script>
                 </div>
             </section>
             <!-- Rating Ends -->
@@ -998,11 +1462,13 @@
                         <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-50-50%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="grid grid-50-50">
+                            <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                            <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                        </div>
+                    </script>
                 </div>
                 <!-- Grid 30 - 70 -->
                 <h4>Grid 30 - 70:</h4>
@@ -1016,11 +1482,17 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-30-70%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522height-25%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522height-25%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="grid grid-30-70">
+                            <div class="height-25">
+                                <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                            </div>
+                            <div class="height-25">
+                                <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                            </div>
+                        </div>
+                    </script>
                 </div>
                 <!-- Grid 70 - 30 -->
                 <h4>Grid 70 - 30:</h4>
@@ -1034,11 +1506,17 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-70-30%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522height-25%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522height-25%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="grid grid-70-30">
+                            <div class="height-25">
+                                <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                            </div>
+                            <div class="height-25">
+                                <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                            </div>
+                        </div>
+                    </script>
                 </div>
                 <!-- Grid 3 columns -->
                 <h3>Grid three columns</h3>
@@ -1053,18 +1531,23 @@
                         <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
                     </div>
                 </div>
-                <div>
-                    <iframe class="code-snippet"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="prism-js">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="grid grid-3">
+                            <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                            <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                            <img class="image-resp" src="../../images/face.jpg" alt="responsive image">
+                        </div>
+                    </script>
                 </div>
             </section>
             <!-- Grid Ends -->
         </div>
         <!-- Main Ends -->
 
+        <!-- Javascript links -->
         <script src="./index.js"></script>
+        <script src="./prism/prism.js"></script>
     </main>
 </body>
 

@@ -69,3 +69,15 @@ body {
 .content {
   margin: 0 2rem;
 }
+
+/* Prismjs for code snippets */
+
+.prism-js {
+  margin: 2rem 0;
+  overflow: auto;
+  border-radius: 12px;
+  background-color: var(--color-green-400);
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+}
