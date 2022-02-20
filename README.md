@@ -23,11 +23,11 @@ After copying the above code in your css file, you can go to the [LUCENT UI](htt
 - [Badge](#Badge)
 - [Button](#Button)
 - [Card](#Card)
-- [Responsive-Image](#Responsive Image)
+- [Responsive-Image](#Responsive-Image)
 - [List](#List)
 - [Navigation](#Navigation)
 - [Input](#Inputs)
-- [Text-Utility](#Text Utility)
+- [Text-Utility](#Text-Utility)
 - [Modal](#Modal)
 - [Toast](#Toast)
 - [Rating](#Rating)
@@ -91,7 +91,7 @@ Lucent UI has three types of cards, they are
 - Horizontal (image + text) cards
 
 
-# Responsive Image
+# Responsive-Image
 
 Images in Lucent UI are made responsive. This applies to the image so that it scales with the parent width.
 
@@ -128,7 +128,7 @@ Lucent UI has two types of input, they are
 - Input with Validation
 
 
-# Text Utility
+# Text-Utility
 
 Lucent UI uses Montserrat, as its default font, which is a free font available at Google Fonts. It consists of different utilities which will help you a lot while writing your css.
 
