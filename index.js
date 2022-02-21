@@ -75,7 +75,7 @@ const hamburger = document.getElementById("hamburger");
 
 hamburger.addEventListener("click", () => {
   asideBar.style.display = "block";
-  // document.body.style.overflow = "hidden";
+  document.body.style.overflow = "hidden";
 });
 
 asideContainer.addEventListener("click", () => {
