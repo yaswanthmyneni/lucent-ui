@@ -14,7 +14,7 @@ To install the Lucent Ui you need to copy the below mentioned css code in your c
 
 ## How to use the project
 
-After copying the above code in your css file, you can go to the [LUCENT UI](http://ym-cl-dev.netlify.app) and copy the code and paste it in your html file for your desired components.
+After copying the above code in your css file, you can go to the [LUCENT UI](http://ym-cl-dev.netlify.app/documentation) and copy the code and paste it in your html file for your desired components.
 
 ## Components
 
