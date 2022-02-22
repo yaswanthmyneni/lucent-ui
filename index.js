@@ -66,3 +66,19 @@ btn.addEventListener("click", () => {
   starFour.style.color = "gray";
   starFive.style.color = "gray";
 });
+
+// aside bar
+
+const asideBar = document.getElementById("aside");
+const asideContainer = document.getElementById("aside-container");
+const hamburger = document.getElementById("hamburger");
+
+hamburger.addEventListener("click", () => {
+  asideBar.style.display = "block";
+  document.body.style.overflow = "hidden";
+});
+
+asideContainer.addEventListener("click", () => {
+  asideBar.style.display = "none";
+  document.body.style.overflow = "visible";
+});

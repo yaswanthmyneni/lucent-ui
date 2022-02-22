@@ -1,6 +1,12 @@
 @import "./components/common.css";
 
+:root {
+  --z-index-header: 5;
+  --z-index-aside-bar: 8;
+}
+
 body {
+  box-sizing: border-box;
   margin: 0rem;
   background-color: var(--color-main-bg);
   scroll-behavior: smooth;
@@ -10,11 +16,15 @@ body {
 .header {
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: var(--z-index-header);
 }
 
 .navbar-container {
   padding: 0;
+}
+
+.navbar-container a:nth-child(1) {
+  display: none;
 }
 
 /* Main Section */
@@ -74,10 +84,61 @@ body {
 
 .prism-js {
   margin: 2rem 0;
-  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: scroll;
   border-radius: 12px;
   background-color: var(--color-green-400);
   text-align: center;
   width: 100%;
   font-size: 1rem;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .aside {
+    display: none;
+    height: auto;
+    position: fixed;
+    top: 4.3rem;
+    z-index: var(--z-index-aside-bar);
+    background-color: var(--color-silver);
+    border: none;
+    overflow: scroll;
+  }
+
+  .navbar-container a:nth-child(1) {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navbar h1 {
+    margin-left: 0;
+  }
+
+  .navbar-container a:nth-child(3) {
+    margin-right: 1.5rem;
+  }
+
+  .navbar-container a:nth-child(4) {
+    display: none;
+  }
+
+  .navbar-container a:nth-child(5) {
+    display: none;
+  }
+  .navbar-container a:nth-child(6) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-container a:nth-child(3) {
+    display: none;
+  }
 }
