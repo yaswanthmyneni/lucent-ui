@@ -10,6 +10,7 @@ body {
   margin: 0rem;
   background-color: var(--color-main-bg);
   scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
 }
 
 /* header Section */
@@ -23,8 +24,13 @@ body {
   padding: 0;
 }
 
-.navbar-container a:nth-child(1) {
+.navbar-container a:nth-child(1),
+.navbar-container a:nth-child(8) {
   display: none;
+}
+
+.m-r-2rem {
+  margin-right: 2rem;
 }
 
 /* Main Section */
@@ -60,14 +66,12 @@ body {
 .aside a::before {
   content: "";
   display: inline-block;
-  padding: 3px;
+  padding: 4px;
   border-radius: 1rem;
-  background-color: var(--color-black);
   margin-right: 1rem;
 }
 
 .aside a:hover {
-  color: var(--color-green-600);
   transform: translateX(7%);
 }
 
@@ -135,5 +139,9 @@ body {
 @media screen and (max-width: 480px) {
   .navbar-container a:nth-child(3) {
     display: none;
+  }
+  .navbar-container a:nth-child(7),
+  .navbar-container a:nth-child(8) {
+    margin-left: auto;
   }
 }
