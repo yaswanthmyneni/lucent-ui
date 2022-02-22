@@ -9,7 +9,7 @@ In this project I used html and css for building components. but for some compon
 To install the Lucent Ui you need to copy the below mentioned css code in your css file and now you can be able to get access to the Lucent UI components.
 
 ```css
-@import "https://ym-cl-doc-site.netlify.app/component.css";
+@import "https://ym-cl-dev.netlify.app/components/component.css";
 ```
 
 ## How to use the project

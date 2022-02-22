@@ -1,4 +1,4 @@
-@import "./components/common.css";
+@import "../components/common.css";
 
 :root {
   --z-index-header: 5;
