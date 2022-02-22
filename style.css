@@ -125,13 +125,8 @@ body {
     margin-right: 1.5rem;
   }
 
-  .navbar-container a:nth-child(4) {
-    display: none;
-  }
-
-  .navbar-container a:nth-child(5) {
-    display: none;
-  }
+  .navbar-container a:nth-child(4),
+  .navbar-container a:nth-child(5),
   .navbar-container a:nth-child(6) {
     display: none;
   }
