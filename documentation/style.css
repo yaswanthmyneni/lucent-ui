@@ -7,7 +7,7 @@
 
 body {
   box-sizing: border-box;
-  margin: 0rem;
+  margin: 0;
   background-color: var(--color-main-bg);
   scroll-behavior: smooth;
   transition: all 0.3s ease-in-out;
@@ -20,16 +20,12 @@ body {
   z-index: var(--z-index-header);
 }
 
-.navbar-container {
-  padding: 0;
-}
-
 .navbar-container a:nth-child(1),
 .navbar-container a:nth-child(8) {
   display: none;
 }
 
-.m-r-2rem {
+.m-right-2rem {
   margin-right: 2rem;
 }
 

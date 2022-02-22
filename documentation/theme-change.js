@@ -16,7 +16,7 @@ const swapTheme = (theme) => {
 }
 
 const darkMode = () => {
-  document.body.style.backgroundColor = "black";
+  document.body.style.backgroundColor = "#161B22";
   h1Array.map((e, index) => {
     if (
       index ==
@@ -102,7 +102,7 @@ const darkMode = () => {
 }
 
 const lightMode = () => {
-  document.body.style.backgroundColor = "white";
+  document.body.style.backgroundColor = "#F7F7F7";
   h1Array.map((e, index) => {
     if (
       index ==
