@@ -47,15 +47,15 @@
 }
 
 .badge-text {
-    padding: 0rem 0.5rem;
+    padding: 0 8px;
     background-color:var(--color-green-200);
     position: absolute;
-    border-radius: 0.3125rem;
+    border-radius: 5px;
     color: var(--color-green-600);
 }
 
 .badge-text-pos {
-    top: -0.8rem;
+    top: -13px;
     left: 11rem;
 }
 
@@ -67,7 +67,7 @@
 
 .icon-badge {
     font-size: 1.5rem;
-    margin: 0.5rem 0.8rem 0px 0px;
+    margin: 8px 12.5px 0 0;
 }
 
 .display-badge {
@@ -80,9 +80,9 @@
 
 .badge-to-icon {
     border-radius: 1rem;
-    padding: 0 0.23rem;
+    padding: 0 3.7px;
     color: var(--color-white);
-    top: 0px;
-    right: 0px;
-    font-size: 0.75rem;
+    top: 0;
+    right: 1.5px;
+    font-size: 12px;
 }
