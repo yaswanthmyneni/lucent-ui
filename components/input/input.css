@@ -1,9 +1,9 @@
 label {
-    margin-bottom: 0.3rem;
+    margin-bottom: 4.8px;
 }
 
 .input {
-    padding: 0.5rem;
+    padding: 10px;
     border: 1px solid var(--color-silver);
     outline: 0;
 }
@@ -12,14 +12,14 @@ label {
     width: 20rem;
     padding: 1rem;
     border: 2px solid var(--color-green-400);
-    border-radius: 0.625rem;
+    border-radius: 10px;
     background-color: var(--color-white);
 }
 
 .input-flex {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 4.8px;
 }
 
 .input-required {
