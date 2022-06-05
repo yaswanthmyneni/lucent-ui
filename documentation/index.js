@@ -13,3 +13,11 @@ hamburger.addEventListener("click", (event) => {
     document.body.style.overflow = "visible";
   }
 });
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth >= "1025") {
+    asideBar.style.display = "block";
+  }else {
+    asideBar.style.display = "none";
+  }
+});
