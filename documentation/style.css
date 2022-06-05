@@ -5,11 +5,15 @@
   --z-index-aside-bar: 8;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
   background-color: var(--color-main-bg);
-  scroll-behavior: smooth;
   transition: all 0.3s ease-in-out;
 }
 
