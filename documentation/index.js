@@ -2,6 +2,12 @@ const asideBar = document.getElementById("aside");
 const asideContainer = document.getElementById("aside-container");
 const hamburger = document.getElementById("hamburger");
 
+asideContainer.addEventListener("click", () => {
+  if (window.innerWidth < "1025") {
+    asideBar.style.display = "none";
+  }
+});
+
 hamburger.addEventListener("click", (event) => {
   if (asideBar.style.display == "none") {
     asideBar.style.display = "block";
@@ -15,9 +21,14 @@ hamburger.addEventListener("click", (event) => {
 });
 
 window.addEventListener("resize", () => {
-  if (window.innerWidth >= "1025") {
-    asideBar.style.display = "block";
-  }else {
-    asideBar.style.display = "none";
+  if (asideBar.style.display !== "block") {
+    if (window.innerWidth >= "1025") {
+      asideBar.style.display = "block";
+    }
+  }
+  if (asideBar.style.display === "block") {
+    if (window.innerWidth < "1025") {
+      asideBar.style.display = "none";
+    }
   }
 });
